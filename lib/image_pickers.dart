@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-
+import 'package:flutter/material.dart'; // For Color
+import 'dart:typed_data'; // For Ui
 enum GalleryMode {
   ///选择图片
   image,
